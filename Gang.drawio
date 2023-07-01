@@ -1,9 +1,42 @@
-<mxfile host="app.diagrams.net" modified="2023-07-01T11:58:52.608Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="21.5.2" etag="osPLqmkcgLC_fKSNcOPA" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-01T13:33:28.420Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Kqu7jwnq3x3hFjS0eWzK" version="21.5.2" type="github">
   <diagram name="第 1 页" id="k4pJQOgZ1tILaU05VPgU">
-    <mxGraphModel>
+    <mxGraphModel dx="980" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="rOl6yIN_jlK5tiiyF6tg-1" value="cdbgang_createGang_async()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="380" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rOl6yIN_jlK5tiiyF6tg-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rOl6yIN_jlK5tiiyF6tg-2" target="rOl6yIN_jlK5tiiyF6tg-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rOl6yIN_jlK5tiiyF6tg-2" value="CreateGangFunc pCreateGangFunc = cdbgang_createGang_async;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="330" width="400" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rOl6yIN_jlK5tiiyF6tg-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rOl6yIN_jlK5tiiyF6tg-3" target="rOl6yIN_jlK5tiiyF6tg-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rOl6yIN_jlK5tiiyF6tg-3" value="cdbgang_createGang()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="230" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rOl6yIN_jlK5tiiyF6tg-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rOl6yIN_jlK5tiiyF6tg-4" target="rOl6yIN_jlK5tiiyF6tg-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rOl6yIN_jlK5tiiyF6tg-4" value="pCreateGangFunc" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="280" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rOl6yIN_jlK5tiiyF6tg-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rOl6yIN_jlK5tiiyF6tg-6" target="rOl6yIN_jlK5tiiyF6tg-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rOl6yIN_jlK5tiiyF6tg-6" value="AllocateGang()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="180" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rOl6yIN_jlK5tiiyF6tg-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rOl6yIN_jlK5tiiyF6tg-7" target="rOl6yIN_jlK5tiiyF6tg-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rOl6yIN_jlK5tiiyF6tg-7" value="&lt;div&gt;CdbDispatchDtxProtocolCommand()&lt;/div&gt;&lt;div&gt;CdbDispatchSetCommand()&lt;/div&gt;&lt;div&gt;cdbdisp_dispatchCommandInternal()&lt;/div&gt;&lt;div&gt;CdbDispatchCopyStart()&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="80" width="200" height="70" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
